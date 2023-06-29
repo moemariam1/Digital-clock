@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: 'orbitron', sans-serif;
+    background-color: black;
+   
+}
+.text_color{
+    background-color: #00ff01;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+   
+}
+.time_wrapper{
+    position: relative;
+}
+#time{
+    text-shadow: 0 0 40px #3bac2c;
+    font-size: 12rem;
+    color: #3bac2c;
+}
+#sec{
+    position: absolute;
+    bottom: 40px;
+    font-size: 2rem;
+}
+#mid{
+    position: absolute;
+    top: 35px;
+    right: -80px;
+    font-size: 3rem;
+}
+.day_wrapper{
+    display: flex;
+    position: relative;
+    left: 20px;
+    justify-content: space-between;
+    color:#3bac2c ;
+
+   
+}
+.day_wrapper span{
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: .3;
+   }
+#showDate{
+    position: relative;
+    left: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
